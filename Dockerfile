@@ -30,8 +30,8 @@ WORKDIR /home/user
 
 RUN mkdir -p ~/.ssh && \
     chmod 700 ~/.ssh && \
-    curl -fsSL git.io/oh-my-zsh.sh | bash && \
-    curl -fsSL git.io/oh-my-tmux.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/ken1029/ubuntu-plus/main/oh-my-zsh.sh | bash && \
+    curl -fsSL https://raw.githubusercontent.com/ken1029/ubuntu-plus/main/oh-my-tmux.sh | bash
 
 ENV TZ=Asia/Shanghai \
     LANG=C.UTF-8
