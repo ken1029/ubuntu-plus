@@ -32,6 +32,7 @@ rm -rf $HOME/.antigen
 mkdir -p $HOME/.antigen
 curl -L git.io/antigen >$HOME/.antigen/antigen.zsh
 curl -fsSL https://raw.githubusercontent.com/ken1029/ubuntu-plus/main/.zshrc >$HOME/.zshrc
+curl -fsSL https://raw.githubusercontent.com/ken1029/ubuntu-plus/main/.p10k.zsh >$HOME/.p10k.zsh
 
 echo -e "${INFO} Installation Oh My Zsh ..."
 zsh $HOME/.zshrc
